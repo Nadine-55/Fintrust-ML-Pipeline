@@ -2,7 +2,7 @@
 This repository contains the technical planning and pipeline scaffolding 
 for a machine-learning workflow that predicts whether a FinTrust transaction 
 requires risk review, using the synthetic `Risk_Review_Flag` label. The 
-ML Engineering track's role is not building the predictive model itself, 
+ML Engineering's role is not building the predictive model itself, 
 but designing the reproducible workflow, technical requirements, and 
 testing strategy that a model can be integrated into.
 
