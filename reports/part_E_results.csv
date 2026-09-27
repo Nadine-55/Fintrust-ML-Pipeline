@@ -1,0 +1,6 @@
+test,expected,actual,status
+Valid input,"No issues (all zeros, or only known missing counts)","{'missing_device_type': np.int64(1), 'missing_location': np.int64(2), 'duplicate_transaction_ids': np.int64(0), 'unexpected_amount': np.int64(0), 'unexpected_risk_values': np.int64(0)}",PASS
+Missing values detected,missing_device_type >= 1,2,PASS
+Unexpected category detected,unexpected_risk_values >= 1,1,PASS
+Incorrect data type handling,TypeError or explicit rejection when Amount_NGN is not numeric,PASS - function correctly failed on wrong dtype,PASS - function correctly failed on wrong dtype
+Empty input handling,"Function runs without crashing, returns zero counts","PASS ran without crashing, returned: {'missing_device_type': np.int64(0), 'missing_location': np.int64(0), 'duplicate_transaction_ids': np.int64(0), 'unexpected_amount': np.int64(0), 'unexpected_risk_values': np.int64(0)}","PASS ran without crashing, returned: {'missing_device_type': np.int64(0), 'missing_location': np.int64(0), 'duplicate_transaction_ids': np.int64(0), 'unexpected_amount': np.int64(0), 'unexpected_risk_values': np.int64(0)}"

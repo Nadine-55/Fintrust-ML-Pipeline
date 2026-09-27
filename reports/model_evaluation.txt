@@ -1,0 +1,19 @@
+=== Random Split Results ===
+              precision    recall  f1-score   support
+
+           0       0.81      0.98      0.89      1908
+           1       0.29      0.03      0.05       455
+
+    accuracy                           0.80      2363
+   macro avg       0.55      0.51      0.47      2363
+weighted avg       0.71      0.80      0.73      2363
+
+=== Time-Based Split Results ===
+              precision    recall  f1-score   support
+
+           0       0.81      0.99      0.89      1906
+           1       0.45      0.04      0.07       457
+
+    accuracy                           0.80      2363
+   macro avg       0.63      0.51      0.48      2363
+weighted avg       0.74      0.80      0.73      2363
