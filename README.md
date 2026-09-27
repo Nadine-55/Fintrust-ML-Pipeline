@@ -20,6 +20,8 @@ testing strategy that a model can be integrated into.
 
 
 ## Status
-Week 1:  data exploration complete, repository structure established, 
-technical planning documented. See Week 1 submission document for full 
-business understanding, technical requirements, and risk analysis.
+Week 2 complete: data validation and preprocessing functions built and tested 
+(both customer and transaction datasets), datasets joined, baseline Logistic 
+Regression model trained and evaluated under both random and time-based splits, 
+5 technical tests passed. Migration of pipeline logic from notebooks into 
+standalone src/ modules planned for Week 3.
