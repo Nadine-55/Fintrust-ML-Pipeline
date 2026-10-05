@@ -3,16 +3,6 @@
 Machine Learning Engineering Intern: submission for the AnalystLab Africa
 FinTrust Digital Bank Experience Lab (Weeks 1–3).
 
-## Project Purpose
-
-This repository contains a reproducible machine-learning pipeline that
-predicts whether a FinTrust transaction requires risk review, using the
-synthetic `Risk_Review_Flag` label. The ML Engineering track's role is
-the workflow, testing, and service layer around a model, not final model
-selection a development model (logistic regression) is used here behind
-a documented, swappable interface. The `Risk_Review_Flag` is a synthetic
-educational label and is not a real fraud determination.
-
 ## Repository Structure
 
 | Path | Purpose |
