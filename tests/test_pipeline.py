@@ -19,7 +19,6 @@ def trained(data):
     return run_training(transactions, customers)
 
 
-# --- input validation (from Week 2, expanded) ---
 
 def test_valid_input_passes(data):
     transactions, customers = data
@@ -55,7 +54,6 @@ def test_empty_input_raises(data):
         run_prediction(transactions.iloc[0:0], customers)
 
 
-# --- new for Week 3 ---
 
 def test_model_loading():
     model = load_model()
